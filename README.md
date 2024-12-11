@@ -2,19 +2,22 @@
 
 ## Table of Contents 
 
-- [Project Overview](project_overview)
-- [Data Sources](data_sources)
-- [Tools](tools)
-- [Data Cleaning](data_cleaning/preparation)
-- [Exploratory Data Analysis](Exploratory_Data_Analysis)
-- [Data Analysis](data_analysis)
-- [Results/Findings](Results/Findings)
-- [Recommendations](Recommendations)
-- [References](References)
+- [Project Overview](#project_overview)
+- [Data Sources](#data_sources)
+- [Tools](#tools)
+- [Data Cleaning](#data_cleaning/preparation)
+- [Exploratory Data Analysis](#exploratory_data_analysis)
+- [Data Analysis](#data_analysis)
+- [Results/Findings](#results/findings)
+- [Recommendations](#recommendations)
+- [References](#references)
 
 ### Project Overview 
 
 The goal of this dashboard is to introduce a Law Firm to Data Visualization. They didn't track nor analyse data before. This Dashboard was part of a presentation on what information we needed to track in order to get the most useful data so they could start taking data driven decisions.   
+
+![Screenshot 2024-12-11 091037](https://github.com/user-attachments/assets/39cf7bc5-2171-4e8d-9f8b-9e92e5724f7f)
+
 
 ## Data Sources 
 
@@ -52,6 +55,9 @@ I also added the following formulas to get the conversion percentage
 ```DAX
 Sets scheduled = DIVIDE(SUM(appointments[matter_id]), SUM(new_matters[matter_]))
 ```
+
+![Screenshot 2024-12-11 091133](https://github.com/user-attachments/assets/e404b59c-6282-4d02-93b6-349de8b2a2ad)
+
 
 ### Results/Findings 
 
